@@ -1,0 +1,16 @@
+.button {
+	width: 119px;
+	height: 56px;
+	border: none;
+	background: #7b6ef6;
+	padding: 16px 32px;
+	border-radius: 12px;
+	transition: background 0.25s;
+}
+.button:hover {
+	background: #8b7ff8;
+}
+.button:focus,
+.button:focus-visible {
+	outline: none;
+}
