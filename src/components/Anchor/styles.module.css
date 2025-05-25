@@ -1,0 +1,7 @@
+.anchor {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 8px;
+	padding: 12px 16px;
+}

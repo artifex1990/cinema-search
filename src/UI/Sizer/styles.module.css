@@ -1,0 +1,12 @@
+.sizer {
+	border-radius: 20px;
+	font-size: 14px;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #7b6ef6;
+	font-weight: 600;
+	min-width: 12px;
+	padding: 0 5px;
+}
