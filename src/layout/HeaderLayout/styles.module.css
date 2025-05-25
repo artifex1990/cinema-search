@@ -1,0 +1,15 @@
+.header {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: space-between;
+	height: 80px;
+	background-color: #121829;
+}
+
+.header__content {
+	margin: 0 120px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
