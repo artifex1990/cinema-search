@@ -1,0 +1,6 @@
+.cinema-list {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, 282px);
+	column-gap: 24px;
+	row-gap: 16px;
+}

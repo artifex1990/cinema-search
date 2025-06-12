@@ -1,11 +1,8 @@
-import './App.css';
+import AuthPage from './pages/AuthPage/AuthPage';
+import MainPage from './pages/MainPage/MainPage';
 
 function App() {
-	return (
-		<>
-			<div>Hello World</div>
-		</>
-	);
+	return <MainPage />;
 }
 
 export default App;

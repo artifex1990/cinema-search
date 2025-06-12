@@ -1,0 +1,17 @@
+.cinema-favorites {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	cursor: pointer;
+	color: #7b6ef6;
+	font-weight: 400;
+}
+
+.active {
+	color: #37d8a7;
+}
+
+.cinema-favorites-img {
+	width: 24px;
+	height: 24px;
+}
