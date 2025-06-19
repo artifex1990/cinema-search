@@ -1,0 +1,10 @@
+.authLayout {
+	margin: 80px 120px 0 120px;
+	display: flex;
+	flex-direction: column;
+	gap: 27px;
+}
+
+.button {
+	width: 201px;
+}
