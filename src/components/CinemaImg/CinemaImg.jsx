@@ -4,9 +4,9 @@ import styles from './styles.module.css';
 
 function CinemaImg({ image, rating }) {
 	return (
-		<div className={styles['cinema-img']}>
-			<Img src={image} alt="cinema" className={styles['cinema-img']} />
-			<div className={styles['cinema-img-component']}>
+		<div className={styles.cinemaImg}>
+			<Img src={image} alt="cinema" className={styles.cinemaImg} />
+			<div className={styles.cinemaImgComponent}>
 				<Rating rating={rating} />
 			</div>
 		</div>

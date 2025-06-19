@@ -9,7 +9,7 @@ function AuthLayout() {
 	}
 
 	return (
-		<div className={styles['auth-layout']}>
+		<div className={styles.authLayout}>
 			<MainHeader>Вход</MainHeader>
 			<LoginInput />
 			<CommonButton className={styles.button} onClick={handleSearch}>

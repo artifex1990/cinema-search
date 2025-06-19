@@ -7,7 +7,7 @@
 	background-color: #121829;
 }
 
-.header__content {
+.headerContent {
 	margin: 0 120px;
 	display: flex;
 	justify-content: space-between;

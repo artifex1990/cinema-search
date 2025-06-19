@@ -1,13 +1,9 @@
 import Bookmark from '../../UI/Bookmark/Bookmark';
 
-function BookmarkLink({ url }) {
-	return (
-		<div>
-			<a href={url ? url : '#'}>
-				<Bookmark />
-			</a>
-		</div>
-	);
-}
+const BookmarkLink = ({ url }) => (
+	<a href={url ? url : '#'}>
+		<Bookmark />
+	</a>
+);
 
 export default BookmarkLink;

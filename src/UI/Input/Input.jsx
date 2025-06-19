@@ -4,7 +4,7 @@ import styles from './styles.module.css';
 function Input({ placeholder, className, imgUrl }) {
 	const classNames = className ? `${styles.input} ${className}` : styles.input;
 	return (
-		<div className={styles['input-container']}>
+		<div className={styles.inputContainer}>
 			{imgUrl && (
 				<Img src={imgUrl} alt="Иконка поиска" className={styles.img} />
 			)}

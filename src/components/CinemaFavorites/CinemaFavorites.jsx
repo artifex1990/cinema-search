@@ -3,8 +3,8 @@ import styles from './styles.module.css';
 
 function CinemaFavorites({ isFavorites = false }) {
 	const classNames = isFavorites
-		? `${styles['cinema-favorites']} ${styles.active}`
-		: styles['cinema-favorites'];
+		? `${styles.cinemaFavorites} ${styles.active}`
+		: styles.cinemaFavorites;
 
 	const logoFavoriteSrc = isFavorites
 		? './logo/bookmark_favorites.svg'
@@ -16,7 +16,7 @@ function CinemaFavorites({ isFavorites = false }) {
 			<Img
 				src={logoFavoriteSrc}
 				alt="favorites"
-				className={styles['cinema-favorites-img']}
+				className={styles.cinemaFavoritesImg}
 			/>
 			<span>{namesFavorite}</span>
 		</div>

@@ -1,12 +1,12 @@
-.cinema-img {
+.cinemaImg {
 	position: relative;
 	width: 100%;
 	height: 400px;
 	object-fit: cover;
-	border-radius: 12px;
+	border-radius: 8px;
 }
 
-.cinema-img-component {
+.cinemaImgComponent {
 	position: absolute;
 	top: 8px;
 	left: 8px;

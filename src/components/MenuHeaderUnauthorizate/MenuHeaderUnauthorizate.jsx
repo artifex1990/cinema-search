@@ -7,16 +7,12 @@ function MenuHeaderUnauthorizated() {
 	return (
 		<div className={styles.menu}>
 			<Anchor url="#search" text="Поиск фильмов" />
-			<Anchor
-				url="#bookmarks"
-				text="Мои фильмы"
-				component={<Sizer size={2} />}
-			/>
-			<Anchor
-				url="#login"
-				text="Войти"
-				component={<Img src="./logo/login.svg" alt="login" />}
-			/>
+			<Anchor url="#bookmarks" text="Мои фильмы">
+				<Sizer size={2} />
+			</Anchor>
+			<Anchor url="#login" text="Войти">
+				<Img src="./logo/login.svg" alt="login" />
+			</Anchor>
 		</div>
 	);
 }

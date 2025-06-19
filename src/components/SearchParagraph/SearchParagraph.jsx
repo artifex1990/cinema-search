@@ -4,7 +4,7 @@ import styles from './styles.module.css';
 function SearchParagraph({ children }) {
 	return (
 		<div className={styles.paragraph}>
-			<Paragraph className={styles.paragraph__content}>{children}</Paragraph>
+			<Paragraph className={styles.paragraphContent}>{children}</Paragraph>
 		</div>
 	);
 }

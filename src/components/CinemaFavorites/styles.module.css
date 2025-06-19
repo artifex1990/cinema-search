@@ -1,4 +1,4 @@
-.cinema-favorites {
+.cinemaFavorites {
 	display: flex;
 	align-items: center;
 	gap: 8px;
@@ -11,7 +11,7 @@
 	color: #37d8a7;
 }
 
-.cinema-favorites-img {
+.cinemaFavoritesImg {
 	width: 24px;
 	height: 24px;
 }

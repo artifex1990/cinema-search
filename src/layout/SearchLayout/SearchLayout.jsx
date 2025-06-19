@@ -9,7 +9,7 @@ function SearchLayout() {
 	}
 
 	return (
-		<div className={styles['search-layout']}>
+		<div className={styles.searchLayout}>
 			<MainHeader>Поиск</MainHeader>
 			<SearchParagraph>
 				Введите название фильма, сериала или мультфильма для поиска и добавления
