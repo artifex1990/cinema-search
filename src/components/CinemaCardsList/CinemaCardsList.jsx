@@ -14,3 +14,4 @@ function CinemaCardsList() {
 }
 
 export default CinemaCardsList;
+//
